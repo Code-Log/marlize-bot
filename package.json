@@ -1,0 +1,33 @@
+{
+  "name": "marlize-bot",
+  "version": "0.0.1",
+  "description": "A Telegram bot created for the Mpu Gaming and esports group",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code-Log/marlize-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "telegram"
+  ],
+  "author": "Jaco Malan",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Code-Log/marlize-bot/issues"
+  },
+  "homepage": "https://github.com/Code-Log/marlize-bot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1"
+  }
+}
